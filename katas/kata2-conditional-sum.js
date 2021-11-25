@@ -12,8 +12,8 @@ const conditionalSum = (values, condition) => {
 
     //takes an array as input and returns the sum of all even numbers
     function evenSum(values){
-        var sum = 0;
-        for (var i = 0; i < values.length; i++) {
+        let sum = 0;
+        for (let i = 0; i < values.length; i++) {
             if (values[i] % 2 === 0) {
                 sum += values[i];
             }
@@ -23,8 +23,8 @@ const conditionalSum = (values, condition) => {
 
     //takes and array and returns the sum of all odd numbers
     function oddSum(values){
-        var sum = 0;
-        for (var i = 0; i < values.length; i++) {
+        let sum = 0;
+        for (let i = 0; i < values.length; i++) {
             if (values[i] % 2 === 1) {
                 sum += values[i];
             }
